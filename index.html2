@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rkina.ge–პროდუქტების კატალოგი</title>
+  <!-- Preloads -->
+   <link rel="preload" href="msubuqi.css" as="style">
+  <link rel="preload" href="./msubuqi.js" as="script">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700;900&display=swap" as="style">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="./msubuqi.css">
+</head>
+<body>
+
+      <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader">
+      <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+      <h3 class="gradient-text">Rkina.ge</h3>
+      <p>იტვირთება პრემიუმ გამოცდილება...</p>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/995577051249?text=მოგესალმებით!%20მაინტერესებს%20თქვენი%20პროდუქცია" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+    <span class="pulse-ring"></span>
+    <span class="tooltip">დაგვიკავშირდით WhatsApp-ზე</span>
+  </a>
+
+   <!-- Navbar -->
+  <nav class="navbar glassmorph" id="navbar">
+    <div class="logo">
+      <i class="fas fa-cog fa-spin-slow"></i>
+      <span>Rkina.ge</span>
+    </div>
+    <ul class="nav-menu" id="nav-menu">
+      <li><a href="./index.html" class="nav-link">მთავარი</a></li>
+      <li><a href="./msubuqi2.html" class="nav-link">კატალოგი 2</a></li>
+    </ul>
+
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="nav-actions">
+      <button id="dark-mode-toggle" class="icon-btn">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!--NAVBAR2-->
+  <nav>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1 data-aos="fade-up">ჩვენი პროდუქტები</h1>
+    </div>
+  </section>
+
+  <!-- Cards Section -->
+  <section class="cards-section">
+    <div class="container">
+      <div class="cards-grid" id="cards-grid"></div>
+    </div>
+  </section>
+<!-- Lightbox – გადიდებული ბარათის სტილი -->
+<div id="lightbox" class="lightbox">
+  <span class="lightbox-close">&times;</span>
+  <span class="lightbox-prev">&#10094;</span>
+  <span class="lightbox-next">&#10095;</span>
+
+  <div class="lightbox-inner">
+    <img id="lightbox-img" src="" alt="">
+    <div class="lightbox-card">
+      <h3 id="lightbox-title"></h3>
+      <p id="lightbox-sub">პრემიუმი ნარჩისი • ხელნაკეთი</p>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- Footer -->
+  <footer class="bg-dark">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>Rkina.ge</h3>
+          <p>პრემიუმ რკინის ხელოსნობა</p>
+        </div>
+        <div class="footer-col">
+          
+            
+            
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>კონტაქტი</h4>
+          <p><i class="fas fa-phone"></i> +995 577 051 249</p>
+          <p><i class="fas fa-envelope"></i> info@rkina.ge</p>
+        
+          </a>
+        </div>
+      </div>
+      <p class="copyright">© 2025 Rkina.ge – ყველა უფლება დაცულია</p>
+
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <script src="msubuqi.js"></script>
+</body>
+</html>
